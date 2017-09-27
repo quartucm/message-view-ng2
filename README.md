@@ -16,7 +16,7 @@ A few important notes:
 and here at Signafire we strive to make our components as self-contained and reusable as reasonably possible.
 - We are mainly looking to see your ability to wire up and build out an Angular app, so please do not spend too much time on styling. We have 
 provided a screenshot as a suggestion of what level of styling we are looking for.
-- **Do not add your SSH key to this directory! Other people will be viewing this directory. You should only need the credentials you were provided to clone the repository and pull with Git**
+- **Do not add your SSH key to this directory!** Other people will be viewing this directory. You should only need the credentials you were provided to clone the repository and pull with Git
 - **Please do not commit directly to this repository!** When you are finished, please post to your personal GitHub account and email a link to Zach (zach@signafire.com) 
 and Luciano (luciano@signafire.com) so that we can review it. Also if you have any questions, don't hesitate to ask!
 
