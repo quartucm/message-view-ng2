@@ -12,10 +12,7 @@ module.exports = function() {
         source: 'Twitter',
         content: faker.lorem.sentences(),
         score: Math.floor((Math.random() * 100) + 1),
-        flags: {
-          isBookmarked: faker.random.boolean(),
-          isStarred: faker.random.boolean()
-        }
+        isStarred: faker.random.boolean()
       });
     }
 
