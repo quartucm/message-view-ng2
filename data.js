@@ -1,10 +1,10 @@
 var faker = require('faker');
 
 module.exports = function() {
-    const data = { api: { messages: []} };
+    const data = { messages: [] };
 
     for (var i = 0; i < 20; i++) {
-      data.api.messages.push({
+      data.messages.push({
         id: faker.random.number(),
         handle: faker.internet.userName(),
         avatar: faker.internet.avatar(),
