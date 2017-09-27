@@ -48,3 +48,9 @@ The app server will be running at http://localhost:4200, while the JSON server w
 4) The API for messages can be found at: `http://localhost:3000/messages`
 
 4) Code!
+
+### Sample Screenshot
+
+The following is a sample screenshot demonstrating the level of styling that is acceptable:
+
+![Image of Sample Challenge](src/assets/sample.png)
