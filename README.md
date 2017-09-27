@@ -47,7 +47,7 @@ The app server will be running at http://localhost:4200, while the JSON server w
 
 4) The API for messages can be found at: `http://localhost:3000/messages`
 
-4) Code!
+5) Code!
 
 ---
 
