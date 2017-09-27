@@ -25,7 +25,7 @@ and Luciano (luciano@signafire.com) so that we can review it. Also if you have a
 ### Main requirements
 - Retrieve message data from the server
 - Display a list of messages
-- Each message object has a flag named "starred"; this flag should be toggleable by a button in the UI
+- Each message object has a flag named "isStarred"; this flag should be toggleable by a button in the UI
 - You should display the number of starred messages somewhere on the page
 
 ### Extra credit
@@ -37,8 +37,6 @@ need to interact with the API)
 
 ### Project set up
 
-Note: You must be running Node 6.9 or higher and NPM 3.0 or higher in order to run this application.
-
 1) Clone the repo using the HTTPS link and the credentials provided to you.
 ```git clone https://gitlab.signafire.com/external/signafire-challenge.git```
 
@@ -47,4 +45,14 @@ Note: You must be running Node 6.9 or higher and NPM 3.0 or higher in order to r
 3) Start the app by running `npm run start`. This will start the webpack-dev-server via the Angular CLI, as well as the JSON server that serves the message data.
 The app server will be running at http://localhost:4200, while the JSON server will be available at http://localhost:3000.
 
+4) The API for messages can be found at: `http://localhost:3000/messages`
+
 4) Code!
+
+---
+
+### Sample Screenshot
+
+The following is a sample screenshot demonstrating the level of styling that is acceptable:
+
+![Image of Sample Challenge](src/assets/sample.png)
