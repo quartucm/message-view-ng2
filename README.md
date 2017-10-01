@@ -1,7 +1,7 @@
 # To Run the Project
 - `npm install` all packages
 - `npm run start` to kick off JSON server + webpack bundler.
-- View the Angular App at http://localhost:4200, 
+- View the Angular App at http://localhost:4200.
 - View JSON server at http://localhost:3000.
 
 
