@@ -1,0 +1,17 @@
+<article class="messages-list__item"> 
+  <div class="messages-list__content messages-list__content--avatar">
+    <img src="{{message.avatar}}" alt={{message.handle}}>
+    <p class="messages-list__handle">{{message.handle}}</p>
+  </div>
+
+  <div class="messages-list__content">
+      <div class="messages-list__date">{{message.source}} | {{message.timestamp | date}}</div>    
+      <p>{{message.content}}</p> 
+  </div>
+
+  <div class="messages-list__content">
+    <button (click)="toggleStar(message)" class="messages-list__star" [class.starred]="message.isStarred === true">
+      {{message.isStarred === true ? 'Starred!' : 'Star Message!'}}
+    </button> 
+  </div>
+</article>

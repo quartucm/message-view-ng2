@@ -1,0 +1,10 @@
+<section class="main" *ngIf="messages.length > 0">
+    <ul class="messages-list">
+      <li *ngFor="let message of messages">
+        <app-message-item
+          [message]="message"
+          (messageStarred)="onMessageStarred($event)"
+          ></app-message-item>
+      </li>
+    </ul>
+  </section>

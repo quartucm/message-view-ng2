@@ -8,8 +8,15 @@
   </div>
 
   <div class="signafire__body">
+    <app-messages-count
+    [starCount]="messagesDataService.starCount"
+    ></app-messages-count>
 
     <!-- Insert Message List Here -->
+    <app-messages-list
+    [messages]="messages"
+    (messageStarred)="onStarClick($event)"
+    ></app-messages-list>
 
   </div>
 </div>

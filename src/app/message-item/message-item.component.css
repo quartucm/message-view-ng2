@@ -1,0 +1,35 @@
+.messages-list__item {
+  border: 1px solid gray;
+  margin-bottom: 10px;
+  padding: 10px;
+  display: flex;
+}
+
+.messages-list__content:last-child {
+  margin-left: auto;
+  flex: 0 0 150px;
+  justify-content: flex-end;
+}
+
+.messages-list__content--avatar {
+  margin-right: 10px;
+}
+
+.messages-list__star.starred {
+  background-color: gold;
+}
+
+.messages-list__star {
+  background-color: white;
+  border: 1px solid #999999;
+  float: right;
+}
+
+.messages-list__date {
+  color: #666666;
+  font-size: 90%;
+}
+
+.messages-list__handle {
+  text-align: center;
+}

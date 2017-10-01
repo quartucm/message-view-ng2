@@ -1,3 +1,10 @@
+# To Run the Project
+- `npm install` all packages
+- `npm run start` to kick off JSON server + webpack bundler.
+- View the Angular App at http://localhost:4200, 
+- View JSON server at http://localhost:3000.
+
+
 # Signafire Front End Challenge
 
 Welcome to the Signafire Front End Challenge! This exercise is intended to allow you to display your ability to perform basic web development tasks 
